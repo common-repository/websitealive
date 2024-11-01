@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ichat-wrap .wrap {float: left; width: 100%;}
+#ichat-wrap span {width:70px;display:block;float:left;line-height:23px;}
+
+.ichat-labels {display: block; margin: 0 0 10px 0;}
+
+.footerlabel {margin-top: 25px;}
+
+.ichat-wrap {  margin: 40px 0 0 40px; float: left; width: 70%;}
+
+
+
+
+
+/*\  WebsiteAlive 2012 - © 2002 - 2012 AYU Technology Solutions LLC, All Rights Reserved.  \*/
+
+/* GLOBALS */
+*{margin:0px; padding:0px;}
+*:focus{outline:none;}
+body{background:url('../images/bodyGlobalBackground.jpg') repeat; -webkit-font-smoothing:antialiased; font-smoothing:antialiased;}
+
+/* COLORS & FONTS*/
+.white{color:#ffffff;}
+.blue{color:#24b2e7;}
+.orange{color:#f79622;}
+.green{color:#79d235;}
+.gray{color:#808080;}
+.medgray{color:#666666;}
+.darkgray{color:#404040;}
+
+.fs11{font-size:11px;}
+.fs12{font-size:12px;}
+.fs13{font-size:13px;}
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+
+.sp1{letter-spacing:-1px;}
+
+.thin{font-weight:300;}
+.semi{font-weight:600;}
+.italic{font-style:italic;}
+
+p{font-family: 'Open Sans', sans-serif;  font-size:13px;  color:#808080;}
+
+a{color:#24b2e7; text-decoration:none;}
+a:hover{color:#f79622; text-decoration:none;}
+a#active{}
+a.active{}
+
+sup{font-size:9px;}
+
+h1{font-family: 'Open Sans', sans-serif; font-size:28px; font-weight:bold; padding:5px 0px; margin:0px;}
+h2{font-family: 'Open Sans', sans-serif; font-size:19pt; padding:5px 0px; margin:0px;}
+h3{font-family: 'Open Sans', sans-serif; font-size:18px; font-weight:bold; padding:5px 0px; margin:0px;}
+h4{font-family: 'Open Sans', sans-serif; font-size:13px; font-weight:normal; margin:-5px 0px 0px 0px;}
+h5{font-family: 'Open Sans', sans-serif; font-size:20px; font-weight:bold; padding:5px 0px; margin:0px;}
+h6{font-family: 'Open Sans', sans-serif; font-size:18px; font-weight:600; color:#404040;margin:0px;}
+
+ul{font-family: 'Open Sans', sans-serif; font-size:12px; color:#808080;}
+li{padding-top:5px; margin-left:30px; padding-left:0px; list-style-image:url('../images/bullet.png'); font-size:13px;}
+
+/* GRID CLASSES */
+.grid300{width:300px;}
+.grid600{width:600px;}
+.grid400{width:400px;}
+.grid500{width:500px;}
+.grid200{width:200px;}
+.grid700{width:700px; padding:0px 20px 0px 0px;}
+.grid250{width:250px;}
+.grid675{width:675px;}
+.grid475{width:475px;}
+
+/* ALIGN / FLOATS */
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+
+.lh21{line-height:21px;}
+
+/* MARGINS */
+.m10{margin:10px;}
+
+.mB5{margin-bottom:5px;}
+.mB10{margin-bottom:10px;}
+.mB20{margin-bottom:20px;}
+.mB30{margin-bottom:30px;}
+.mB40{margin-bottom:40px;}
+
+.mT0{margin-top:0px;}
+.mT5{margin-top:5px;}
+.mT10{margin-top:10px;}
+.mT15{margin-top:15px;}
+.mT20{margin-top:20px;}
+.mT25{margin-top:25px;}
+.mT30{margin-top:30px;}
+.mT35{margin-top:35px;}
+.mT40{margin-top:40px;}
+.mT50{margin-top:50px;}
+.mT60{margin-top:60px;}
+
+.mL10{margin-left:10px;}
+.mL15{margin-left:15px;}
+.mL20{margin-left:20px;}
+.mL25{margin-left:25px;}
+.mL35{margin-left:35px;}
+.mL40{margin-left:40px;}
+.mL45{margin-left:45px;}
+
+.mR10{margin-right:10px;}
+.mR35{margin-right:35px;}
+
+/* PADDINGS */
+.pT0{padding-top:0px;}
+
+.pR5{padding-right:5px;}
+.pR10{padding-right:10px;}
+.pR15{padding-right:15px;}
+
+.pB5{padding-bottom:5px;}
+.pB10{padding-bottom:10px;}
+
+.pL25{padding-left:25px;}
+
+.p5{padding:5px;}
+.p15{padding:0px 15px;}
+.p35{padding:35px;}
+
+/* FORMS */
+.blank-textarea{
+  outline: 0;
+	font-family:'Open Sans', sans-serif;
+	color:#404040;
+	background: #FFFFFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.checkbox{
+	outline: 0;
+	border:none;
+	box-shadow: none;
+	width:auto;
+}
+/* MISC */
+.divider1{width:980px; height:1px; background:#cccccc; margin:10px 0px 10px 4px; float:left;}
+
+/* HEADER MENU */
+#headerMenu			{width:988px; height:101px; background:url('../images/headerMenu.png') no-repeat;}
+#aliveSalesLogo		{background:url('../images/aliveSales-logo.png') no-repeat; width:236px; height:63px; margin:20px 0px 0px 20px; float:left;}
+#aliveSalesLogo a	{width:236px; height:63px; display:block;}
+
+/* Navigation */
+#nav{
+	width:auto; 
+	height:75px;
+	font-family:'Open Sans', sans-serif;
+	font-size:14pt;
+	font-weight:300;
+	margin:37px 25px 0px 0px;
+	letter-spacing:-.5px;
+	float:right;
+}
+	#nav a			{color:#404040; margin:0px 10px; text-decoration:none;}
+	#nav a:hover	{color:#f79622; text-decoration:none; border-bottom:1px dotted #f79622;}
+	#nav .lockIcon  {background:url('../images/loginIcon.png') no-repeat; width:14px; height:18px; display:inline; margin:5px 10px 0px 0px;}
+	
+/* HEADER */
+#headerSales{background:url('../images/headerBGGreen.jpg') repeat-x; width:100%; height:261px;}
+
+/* WRAPPERs */
+.wrapper{width:1000px; margin:0px auto;}
+	.websiteAliveSales{background:url('../images/headerGreen.jpg') no-repeat; width:1000px; height:261px;}
+
+/* Content */
+#content				{width:1000px; height:auto; margin:-50px auto 0px;}
+#content .content		{background:url('../images/content.png') repeat-y; width:988px;}
+#content .contentTop	{background:url('../images/contentTop.png') repeat-y; width:988px; height:23px}
+#content .contentBottom	{background:url('../images/contentBottom.png') repeat-y; width:988px; height:23px;}
+
+.headerTitle	{text-align:left; padding-left:50px; margin-top:25px;}
+.headerTag		{text-align:left; padding-left:50px; margin-top:-5px;}
+
+/* AliveSales */
+
+.div_features{
+	border:1px solid #cccccc; 
+	padding:10px; 
+	background-color:#ffffff; 
+	margin:15px 0px; 
+	font-family:'Open Sans', sans-serif; 
+	-webkit-box-shadow: 0px 0px 5px 2px #e2e2e2;
+	box-shadow: 0px 0px 5px 2px #e2e2e2;
+}
+
+.div_features h3{padding-top:0px; margin-top:0px;}
+
+input{padding:5px; color:#404040; border:1px solid #e2e2e2; cursor:pointer;}
+.userLogin_input{width:180px;}
+.register_input{width:220px; margin:5px 0px;}
+
+.login-divider{width:280px; height:1px; background:#cccccc; margin:10px 0px; float:left;}
+
+.aRight{text-align:right;}
+
+
+
+
+
+
+
+	
+/* The Ever Popular Learn More Button */
+.learnMore			{background:url('../images/learnMoreButton.png') no-repeat; width:92px; height:24px;}
+.learnMore a		{background:url('../images/learnMoreButton.png') no-repeat; width:92px; height:24px; display:block; background-position:0px 0px;}
+.learnMore a:hover	{width:92px; height:24px; display:block; background-position:0px -24px;}
+.learnMore a:active	{width:92px; height:24px; display:block; background-position:0px -48px;}
+.learnMore a#active	{width:92px; height:24px; display:block; background-position:0px -48px;}
+
+/* jQuery Inset */
+.insetPanel				{width:980px; height:299px; background:url('../images/insetBG.jpg') repeat-x; margin-left:4px; position:relative;}
+.insetPanel img			{width:196px; height:286px; margin:10px 0px 0px 50px; float:left;}
+.insetPanel p			{color:#e2e2e2; font-size:14px;}
+.insetPanel ul			{margin-top:20px; padding-left:25px; color:#e2e2e2;}
+.insetPanel li			{font-size:18px; font-weight:600; padding-bottom:8px;}
+.insetPanel .close		{width:35px; height:35px; float:right;}
+
+	.insetPanel .close a{width:35px; height:35px; display:block; background-position:0px 0px; background:url('../images/showcaseClose.png') no-repeat;}
+	.insetPanel .close a:hover{width:35px; height:35px; display:block; background-position:0px -35px;}
+	
+	.liveChatDemo{background:url('../images/demoButton.png') no-repeat; width:120px; height:40px; margin:15px 0px 0px 0px; float:left;}
+	.liveChatDemo a{display:block; width:128px; height:98px;}
+	
+	.darkLearnMore{width:132px; height:40px; background:url('../images/darkLearnMoreButton.png') no-repeat; margin:15px 0px 0px 0px; float:left;}
+	.darkLearnMore a{width:132px; height:40px; display:block;}
+
+	.liveChatInt{width:160px; height:41px; float:right; margin:5px 50px 0px 0px;}
+	.liveChatInt a{background:url('../images/liveChat2.png') no-repeat; display:block; width:160px; height:41px; cursor:pointer;}
+	.liveChatInt a:hover{background:url('../images/liveChat2.png') no-repeat; background-position:0px -41px; display:block; width:160px; height:41px;}
+	
+/* FOOTER */
+#footer{
+	width:100%;
+	height:215px;
+	background:url('../images/footerBackground.jpg') repeat-x;
+	margin-top:0px;
+}
+#footerContent{width:980px; margin:0px auto;}
+	#footerContent p{color:#ffffff; padding-left:15px;}
+	#footerContent a{color:#ffffff;}
+	#footerContent a:hover{color:#24b2e7;}
+	#footerContent a:active{color:#f79622;}
+	#footerContent h6{font-weight:bold; padding:0px 0px 0px 15px; margin-bottom:5px;}
+	#footerContent ul{padding-left:15px;}
+	#footerContent li{list-style:none; font-size:13px; padding:0px; margin:0px; font-size:13px;}
+	
+/* FOOTER MENUS */
+#footerContent .menuSection{
+	background:url('../images/footerDivider.png') no-repeat;
+	width:165px;
+	height:153px;
+	float:left;
+	margin-top:20px;
+	padding-right:10px;
+}
+#footerContent .contactSection{
+	background:url('../images/footerDivider.png') no-repeat;
+	width:220px;
+	height:153px;
+	float:left;
+	margin-top:20px;
+}
+#footerContent .newsletter{float:right; width:360px;}
+#footerContent .newsletterBox{background:url('../images/newsletterForm.png') no-repeat; width:284px; height:40px; float:left; margin:5px 0px 0px 0px;}
+#footerContent .newsletterForm{background:#d4d4d4; width:252px; height:28px; border:none; margin:6px 0px 0px 6px; padding:0px 10px; font-family:'Open Sans', sans-serif; font-size:14px; color:#404040;}
+#footerContent .newsletterSubmit{width:50px; height:50px; float:left;}
+#footerContent .newsletterButton{background:url('../images/newsletterSubmit.png') no-repeat; width:50px; height:50px; border:none; cursor:pointer;}
+#footerContent .newsletterDiv{background:url('../images/newsletterDiv.png') no-repeat; width:317px; height:2px; float:left; margin:15px 0px;}
+
+#footerContent .social{float:right; width:360px; margin-top:10px;}
+.facebook{
+	background:url('../images/socialFB.png') no-repeat;
+	width:32px;
+	height:32px;
+	float:left;
+	padding-right:10px;
+	
+}
+.facebook a{width:32px; height:32px; display:block;}
+.twitter{
+	background:url('../images/socialTwitter.png') no-repeat;
+	width:32px;
+	height:32px;
+	float:left;
+	padding-right:10px;
+}
+.twitter a{width:32px; height:32px; display:block;}
+.google{
+	background:url('../images/socialGoogle.png') no-repeat;
+	width:32px;
+	height:32px;
+	float:left;
+	padding-right:10px;
+}
+.google a{width:32px; height:32px; display:block;}
+.youtube{
+	background:url('../images/socialYouTube.png') no-repeat;
+	width:32px;
+	height:32px;
+	float:left;
+}
+.youtube a{width:32px; height:32px; display:block;}
+
+#subFooter{width:100%; height:25px; background:url('../images/bodyGlobalBackground.jpg') repeat-x;}
+	#subFooterContent{width:980px; margin:0px auto;}
+	.copyright{font-family:'Open Sans', sans-serif; font-size:10px; color:#808080; text-align:center; padding-top:5px;}
+	
+
+
+
+/* root element for tabs  */
+ul.tabs {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    height:48px;
+	float:left;
+	margin-top:15px;
+}
+/* single tab */
+ul.tabs li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+	font-family: 'Open Sans', sans-serif;    
+	color:#808080;
+	font-weight:600;
+}
+/* link inside the tab. uses a background image */
+ul.tabs a {
+    font-size:18px;
+    display:block;
+    height: 48px;
+    line-height:45px;
+    width: auto;
+    text-decoration:none;
+    color:#404040;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    top:0px;
+	display:inline-block;
+	background:#eee;
+	cursor:pointer;
+}
+ul.tabs a:active{outline:none;}
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover{color:#404040; background:#eee; width:auto; height:48px; display:inline-block;}
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a{cursor:default !important; background:#fff; height:48px; position:relative; top:1px;}
+
+.tab-alivechat{border-top:1px solid #cccccc; border-right:1px solid #cccccc; border-left:1px solid #cccccc;}
+.tab-alivedial{border-top:1px solid #cccccc; border-right:1px solid #cccccc;}
+
+.alivechat-icon{background:url('../images/tabIcon-aliveChat.png') no-repeat; width:31px; height:31px; float:left; margin:8px 10px 0px 10px;}
+.alivedial-icon{background:url('../images/tabIcon-aliveDial.png') no-repeat; width:31px; height:31px; float:left; margin:8px 10px 0px 10px;}
+/* initially all panes are hidden */
+.panes .pane{display:none;}
+
+/* Pricing Table Tooltips */
+#tooltipEXAMPLE
+{
+	overflow:hidden;
+	cursor:pointer;
+	width:275px;
+	display:block;
+}
+
+
